@@ -6,7 +6,7 @@ This repo was created as I am reading along to the [O'Reilly Learning Javascript
 A pattern is a reusable solution that can be applied to commonly occurring problems in software design.
 
 #### Constructor Pattern
-[Check out the full file here](https://github.com/DominicSerranoC14/Oreilly-JS-Patterns/blob/dev/js/constructor.js)
+[Check out the full example here](https://github.com/DominicSerranoC14/Oreilly-JS-Patterns/blob/dev/js/constructor.js)
 ```
 Constructor with Prototypes
 
@@ -22,7 +22,8 @@ Pet.prototype.introducePet = function() {
 ```
 
 
-#### [Module Pattern](https://github.com/DominicSerranoC14/Oreilly-JS-Patterns/blob/master/js/module.js)
+#### Module Pattern
+[Check out the full example here](https://github.com/DominicSerranoC14/Oreilly-JS-Patterns/blob/master/js/module.js)
 ```
 const module = (function() {
 
