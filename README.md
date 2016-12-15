@@ -39,7 +39,7 @@ const module = (function() {
 ```
 
 ### Revealing Module Pattern
-[Click here for the full example]()
+[Click here for the full example](https://github.com/DominicSerranoC14/Oreilly-JS-Patterns/blob/master/js/revealingModule.js)
 ```
 const module = (function() {
 
