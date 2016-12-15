@@ -29,10 +29,28 @@ const module = (function() {
 
   let itemList = [];
 
+  // Public methods / variables
   return {
     getItemList: () => itemList,
-
     newItem: (item) => itemList.push(item)
+  };
+
+})();
+```
+
+### Revealing Module Pattern
+[Click here for the full example]()
+```
+const module = (function() {
+
+  let itemList = [];
+  let getItemList = () => itemList;
+  let newItem = (item) => itemList.push(item);
+
+  // Public methods / variables
+  return {
+    getItemList,
+    newItem
   };
 
 })();
