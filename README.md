@@ -5,7 +5,8 @@ This repo was created as I am reading along to the [O'Reilly Learning Javascript
 ### What is a pattern?
 A pattern is a reusable solution that can be applied to commonly occurring problems in software design.
 
-#### [Constructor Pattern]()
+#### Constructor Pattern
+[Check out the full file here]()
 ```
 Constructor with Prototypes
 
@@ -18,5 +19,20 @@ function Pet (name, species, color) {
 Pet.prototype.introducePet = function() {
   return `This is my pet ${this.name}, and it is a ${this.species}`;
 };
+```
 
+
+#### [Module Pattern]()
+```
+const module = (function() {
+
+  let itemList = [];
+
+  return {
+    getItemList: () => itemList,
+
+    newItem: (item) => itemList.push(item)
+  };
+
+})();
 ```
