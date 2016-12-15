@@ -5,7 +5,7 @@ This repo displays examples of JavaScript design patterns from the [O'Reilly Lea
 ### What is a pattern?
 A pattern is a reusable solution that can be applied to commonly occurring problems in software design.
 
-#### Constructor Pattern
+### Constructor Pattern
 [Check out the full example here](https://github.com/DominicSerranoC14/Oreilly-JS-Patterns/blob/dev/js/constructor.js)
 ```
 Constructor with Prototypes
@@ -22,7 +22,7 @@ Pet.prototype.introducePet = function() {
 ```
 
 
-#### Module Pattern
+### Module Pattern
 [Check out the full example here](https://github.com/DominicSerranoC14/Oreilly-JS-Patterns/blob/master/js/module.js)
 ```
 const module = (function() {
